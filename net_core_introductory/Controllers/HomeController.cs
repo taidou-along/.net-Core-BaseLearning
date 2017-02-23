@@ -29,6 +29,7 @@ namespace net_core_introductory.Controllers
 
         public IActionResult Error()
         {
+            ViewData["Error"] = "错误！";
             return View();
         }
     }
